@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background: #FBFBFB;
+}
+
+#main-page > * {
+    margin-right: 15.8125rem;
+    margin-left: 15.6875rem;
+}
+
+#about-page > * {
+    margin-right: 30rem;
+    margin-left: 30rem;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    color: #445964; 
+}
+
+
+.identity {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    color: #445964;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar > a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    text-decoration: none;
+
+    color: #445964;
+}
+
+.main {
+    display: flex;
+    max-width: 100%;
+    margin-top: 6rem;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content > p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.content em {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 5.25rem;
+}
+
+.about-button {
+    max-width: max-content;
+    border-radius: 1rem;
+    padding: 1rem 1.25rem;
+    background: #263138;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.about-me {
+    display: flex;
+    max-width: 100%;
+    margin-top: 6rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pfp-identity {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-width: max-content; */
+    text-decoration: none;
+}
+
+.accent-colour {
+    color: #263138;
+}
+
+#hard-skills {
+    margin-top: 5rem;
+}
+
+.skill-table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-points {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
