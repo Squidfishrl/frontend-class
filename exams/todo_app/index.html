@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Task board</title>
+    <link rel="stylesheet" href="./index.css">
+
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="app-title">Simple Task board</h1>
+    </header>
+
+    <main class="main">
+        <div class="task-col">
+            <form class="create-task">
+                <input class="create-task-title" type="text" placeholder="Task title">
+                <textarea class="create-task-description" placeholder="Description" cols="30" rows="10"></textarea>
+                <button class="create-task-btn">Create</button>
+            </form>
+
+        </div>
+
+        <div class="task-col" id="todo-col">
+            <span class="task-container">
+                <h2 class="col-title">TODO</h2>
+
+                <ul class="tasks"></ul>
+            </span>
+            <button class="move-task-btn" id="to-in-progress">-></button>
+        </div>
+
+        <div class="task-col" id="in-progress-col">
+            <span class="task-container">
+                <h2 class="col-title">In progress</h2>
+
+                <ul class="tasks"></ul>
+            </span>
+            <button class="move-task-btn" id="to-in-progress">-></button>
+        </div>
+
+        <div class="task-col" id="done-col">
+            <span class="task-container">
+                <h2 class="col-title">Done</h2>
+                <ul class="tasks"></ul>
+            </span>
+            <button class="move-task-btn" id="to-in-progress">-></button>
+        </div>
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    width: 100vw;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    background-color: purple;
+    height: 5rem;
+}
+
+.app-title {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.main > div {
+    min-height: 100%
+}
+
+.task-col {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 25%;
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+    padding-top: 1rem;
+}
+
+.create-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.create-task > *, .task-col > input, .task-col > textarea {
+    min-width: 100%;
+}
+
+.create-task-title {
+    height: 1.5rem;
+}
+
+.create-task-title, .create-task-description {
+    border: 0.1rem 5% gray;
+}
+
+.create-task-btn {
+    min-width: none;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.task {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: gray;
+    border: 1rem 5% black;
+}
