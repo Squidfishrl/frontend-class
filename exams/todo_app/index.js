@@ -27,5 +27,6 @@ document.querySelector("form.create-task").addEventListener("submit", (event) =>
 
 // move span directly on click since it's less tiem consuming
 document.querySelector("span.task-container").addEventListener("click", (event) => {
+    event.target.parentNode; 
 
 });
